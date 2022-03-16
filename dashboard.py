@@ -245,7 +245,7 @@ def main() :
 
             #Appel de l'API : 
 
-            API_url = "http://127.0.0.1:5000/credit/" + str(id_client)
+            API_url = "https://flask-scoring-pediction.herokuapp.com/credit/" + str(id_client)
 
             with st.spinner('Chargement du score du client...'):
                 json_url = urlopen(API_url)
