@@ -21,7 +21,7 @@ warnings.filterwarnings("ignore")
 
 def main() :
 
-    @st.cache
+    @st.cache(ttl=3600*24, show_spinner=False)
     def load_data():
         PATH = 'data/'
         #données test après feature engeniering
