@@ -180,7 +180,7 @@ def main() :
     # SIDEBAR
     #######################################
 
-    LOGO_IMAGE = "logo.png"
+    LOGO_IMAGE = "logo.PNG"
     SHAP_GENERAL = "global_feature_importance.png"
 
     with st.sidebar:
